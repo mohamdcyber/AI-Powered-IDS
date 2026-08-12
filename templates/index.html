@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber IDS Dashboard</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Cyber Intrusion Detection System</h1>
+
+<div class="controls">
+    <button id="startBtn">▶ Start Monitoring</button>
+    <button id="resetBtn">⟳ Reset Dashboard</button>
+</div>
+
+    <div class="cards">
+
+        <div class="card">
+            <h2>Source IP</h2>
+            <p id="ip">--</p>
+        </div>
+
+        <div class="card">
+            <h2>Connections</h2>
+            <p id="connections">0</p>
+        </div>
+
+        <div class="card">
+            <h2>Unique Ports</h2>
+            <p id="ports">0</p>
+        </div>
+
+        <div class="card">
+            <h2>Attack Type</h2>
+            <p id="attack">--</p>
+        </div>
+
+        <div class="card">
+            <h2>Threat Level</h2>
+            <p id="severity">LOW</p>
+        </div>
+
+        <div class="card">
+            <h2>Status</h2>
+            <p id="status">Monitoring</p>
+        </div>
+
+        <div class="card">
+            <h2>Last Update</h2>
+            <p id="time">--</p>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
