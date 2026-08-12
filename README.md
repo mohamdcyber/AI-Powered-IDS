@@ -100,8 +100,10 @@ The project is currently functional and can be used to monitor and analyze detec
 
 ## Author
 
-Mohammed Assaf Abdullah
+**Mohammed Assaf Abdullah**
+
 Cybersecurity Engineering Student
+
 GitHub: https://github.com/mohamdcyber
 
 
